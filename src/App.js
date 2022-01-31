@@ -68,9 +68,10 @@ function App() {
           <MapSVG />
           <ProduceContainer produceList = {ProduceArray} onClick={onClick}/>
         </div>
-      <Routes>
+        <Home/>
+      {/* <Routes>
       <Route path='/' element={<Home/>}/>
-      </Routes>
+      </Routes> */}
       <Footer/>
       </Router>
     </div>
